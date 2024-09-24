@@ -30,11 +30,6 @@ header {
     padding: 0 10rem;
     position: fixed;
 
-    #logo {
-        padding: .5rem;
-        margin-right: auto;
-    }
-
     img {
         height: 5rem;
     }
@@ -310,7 +305,7 @@ header {
 
         #icon {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             font-size: 1.2rem;
 
             a {
@@ -358,8 +353,8 @@ header {
 
             #profile-pic1 {
                 align-items: baseline;
-                width: 100%;
-                min-width: 30rem;
+                width: 80%;
+                min-width: 25rem;
             }
         }
 
@@ -436,7 +431,6 @@ header {
         #projects {
 
             .card1 {
-                padding: ;
 
                 .details {
 
